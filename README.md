@@ -29,6 +29,10 @@ uv run pytest -q                                           # 跑测试
 
 The check result has three sheets. **汇总** shows how many issues each rule found. **问题清单** lists every issue. **原表标注** marks errors in red and records that need review in yellow.
 
+The image below shows the **问题清单** sheet that the commands above produce (default seed 7): 403 records, 20 errors, and 8 records that need review.
+
+![The 问题清单 sheet: one row per issue, with the record number, Excel row, ear tag, date, event, level, rule, and details](docs/check-result.png)
+
 ## Input format
 
 The input is one Excel file with two sheets:
