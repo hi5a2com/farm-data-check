@@ -1,0 +1,15 @@
+[project]
+name = "farm-data-check"
+version = "0.1.0"
+description = "牧场繁育记录自动核对（演示作品，使用模拟数据）"
+requires-python = ">=3.11"
+dependencies = ["openpyxl>=3.1"]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
